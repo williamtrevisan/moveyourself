@@ -35,10 +35,10 @@ git clone https://github.com/williamtrevisan/moveyourself.git
 Pré-requisitos: node, npm/yarn
 
 # Entrar na pasta do projeto
-cd nome-do-projeto
+cd moveyourself
 
 # Instalar dependências
-npm install
+npm install vuex
 
 # Executar o projeto
 npm run serve
