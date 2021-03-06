@@ -1,0 +1,38 @@
+<template>
+  <div class="completedChallengesContainer">
+    <span>Desafios completos</span>
+    <span>{{ challengesCompleted }}</span>
+  </div>
+</template>
+
+<script>
+import { mapState } from 'vuex';
+
+export default {
+  computed: {
+    ...mapState('challenges', [
+      'challengesCompleted',
+    ])
+  }
+}
+</script>
+
+<style>
+  .completedChallengesContainer {
+    align-items: center;
+    border-bottom: 1px solid #D7D8DA;
+    display: flex;
+    font-weight: 500;
+    justify-content: space-between;
+    margin: 3.5rem 0;
+    padding-bottom: 1rem;
+  }
+
+  .completedChallengesContainer span:first-child {
+    font-size: 1.25rem;
+  }
+
+  .completedChallengesContainer span:last-child {
+    font-size: 1.5rem;
+  }
+</style>
