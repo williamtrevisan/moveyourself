@@ -34,7 +34,7 @@ git clone https://github.com/williamtrevisan/moveyourself.git
 ## Front-end 
 Pré-requisitos: node, npm/yarn
 
-# Entrar na pasta do projeto front-end
+# Entrar na pasta do projeto
 cd nome-do-projeto
 
 # Instalar dependências
