@@ -38,7 +38,7 @@ Pré-requisitos: node, npm/yarn
 cd moveyourself
 
 # Instalar dependências
-npm install vuex
+npm install
 
 # Executar o projeto
 npm run serve
